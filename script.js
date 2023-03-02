@@ -51,5 +51,21 @@ function handleMath(symbol){
 
     const intBuffer = parseInt(buffer);
 
-    if()
+    if(runningTotal === 0){
+        runningTotal = intBuffer;
+    }else{
+        flushOperation(intBuffer);
+    }
+    previousOperator = symbol;
+    buffer = '0';
+}
+
+function flushOperation(intBuffer){
+    if(previousOperator === '+'){
+        runningTotal += intBuffer;
+    }else if(previousOperator === '-'){
+        runningTotal -= intBuffer;
+    }else if(previousOperator === 'x'){
+        runningTotal *= intBuffer;
+    }else if
 }
