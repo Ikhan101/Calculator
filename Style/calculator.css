@@ -64,4 +64,6 @@ body{
     justify-content: space-between;
     margin: 5% 0;
 }
-.calc-button
+.calc-button{
+    backdrop-filter: blur(5.5px);
+}
