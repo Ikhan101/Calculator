@@ -11,3 +11,13 @@ function buttonClick(value){
     }
     screen.innerText-buffer;
 }
+
+function handleSymbol(symbol){
+    switch(symbol){
+        case 'C':
+            buffer = '0';
+            runningTotal = 0;
+            break;
+        case '='
+    }
+}
