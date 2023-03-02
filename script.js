@@ -80,3 +80,4 @@ function handleNumber(numberString){
     }
 }
 
+function init(){}
