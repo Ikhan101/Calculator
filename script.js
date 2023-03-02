@@ -1,5 +1,13 @@
-List = ['Imraan', 'Amaan', 'Abrar', 'Rosita', 'Ayisha'];
-console.log(List);
-if(List[0] === 'Imraan'){
-    console.log('Imraan is in the list');
+let runningTotal = 0;
+let buffer = "0";
+let previousOperator;
+
+const screen = document.querySelector('.screen');
+function buttonClick(value){
+    if(isNaN(value)){
+        handleSymbol(balue);
+    }else{
+        hanleNumber(value);
+    }
+    screen
 }
