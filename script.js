@@ -27,6 +27,7 @@ function handleSymbol(symbol){
             buffer = runningTotal;
             runningTotal = 0;
             break;
+        case ''
 
     }
 }
