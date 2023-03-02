@@ -18,6 +18,9 @@ function handleSymbol(symbol){
             buffer = '0';
             runningTotal = 0;
             break;
-        case '='
+        case '=':
+            if(previousOperator === null){
+                return
+            }
     }
 }
