@@ -24,6 +24,9 @@ function handleSymbol(symbol){
             }
             flushOperation(parseInt(buffer));
             previousOperator = null;
-            
+            buffer = runningTotal;
+            runningTotal = 0;
+            break;
+
     }
 }
