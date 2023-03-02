@@ -9,5 +9,5 @@ function buttonClick(value){
     }else{
         hanleNumber(value);
     }
-    screen
+    screen.innerText-buffer;
 }
