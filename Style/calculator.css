@@ -2,8 +2,11 @@
     border: solid 2px black;
     width: 30%;
     background-color: antiquewhite;
+    border-radius: 20px;
 }
 h1{
     text-align: center;
     font-size: 50px;
+    font-weight: bold;
+    color: blue;
 }
