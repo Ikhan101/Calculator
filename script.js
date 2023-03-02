@@ -36,7 +36,18 @@ function handleSymbol(symbol){
             break;
         case '+':
         case '-':
-        case ''
+        case 'x':
+        case '÷':
+            handleMath(symbol);
+            break;
 
     }
+}
+
+function handleMath(symbol){
+    if(buffer === '0'){
+        return;
+    }
+
+    const intBuffer = parseInt(buffer);
 }
