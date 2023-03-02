@@ -29,9 +29,9 @@ function handleSymbol(symbol){
             break;
         case '←':
             if(buffer.length ===1){
-                buffer ='0';
+                buffer = '0';
             }else{
-                buffer = buffer.toString(0, buffer.length - 1);
+                buffer = buffer.substring(0, buffer.length - 1);
             }
             break;
         case '+':
