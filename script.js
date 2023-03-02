@@ -7,7 +7,7 @@ function buttonClick(value){
     if(isNaN(value)){
         handleSymbol(value);
     }else{
-        hanleNumber(value);
+        handleNumber(value);
     }
     screen.innerText-buffer;
 }
