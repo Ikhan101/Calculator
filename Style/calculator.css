@@ -24,5 +24,7 @@ html{
 }
 body{
     align-items: center;
-    background: linear-gradient();
+    background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
+    display: flex;
+    font-family: 'Dosis', sans-serif;
 }
