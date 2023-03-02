@@ -50,4 +50,6 @@ function handleMath(symbol){
     }
 
     const intBuffer = parseInt(buffer);
+
+    if()
 }
