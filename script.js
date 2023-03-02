@@ -7,7 +7,7 @@ function buttonClick(value){
     if(isNaN(value)){
         handleSymbol(balue);
     }else{
-        hanleNumber(value);
+        hanleNumber(valu);
     }
     screen
 }
