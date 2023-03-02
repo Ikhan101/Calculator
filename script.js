@@ -22,5 +22,8 @@ function handleSymbol(symbol){
             if(previousOperator === null){
                 return
             }
+            flushOperation(parseInt(buffer));
+            previousOperator = null;
+            
     }
 }
