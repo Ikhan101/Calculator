@@ -84,5 +84,4 @@ function init(){
         buttonClick(event.target.innerText);
     })
 }
-
 init();
